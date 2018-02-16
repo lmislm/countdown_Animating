@@ -1,7 +1,6 @@
 # countdown_Animating
 
 Js倒计时
-展示
 
 ![enter description here][1]
 
