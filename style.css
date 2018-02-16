@@ -26,3 +26,42 @@ h1{
 
     box-sizing: border-box;
 }
+#clock span:nth-child(1){
+    background: #fa5559;
+}
+#clock span:nth-child(2){
+    background: #26c2b9;
+}
+#clock span:nth-child(3){
+    background: #f6bc59;
+}
+#clock span:nth-child(4){
+    background: #2dcb74;
+}
+
+#units span{
+    float: left;
+    width: 25%;
+    text-align: center;
+    margin-top: 30px;
+    color: #dddddd;
+    text-transform: uppercase;
+    font-size: 13px;
+    letter-spacing: 2px;
+    text-shadow: 1px 1px 1px rgba(10, 10, 10, 0.7);
+}
+
+#clock:after{
+    content: "";
+    display: block;
+    clear: both;
+}
+
+span.turn{
+    animation: turn 0.7s ease forwards;
+}
+
+@keyframes turn {
+    0%{transform: rotateX(0deg)}
+    100%{transform: rotateX(360deg)}
+}
