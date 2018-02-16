@@ -49,6 +49,6 @@ function startTimer(id, deadline) {
 
 
 window.onload = function () {
-    var deadline = new Date("April 25, 2018 16:15:00");   //倒计时目标
+    var deadline = new Date("June 1, 2018 12:15:00");   //倒计时目标
     startTimer("clock", deadline);//id clock
 }
