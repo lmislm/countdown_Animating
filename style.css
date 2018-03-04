@@ -42,6 +42,28 @@ body{
     /*消除边缘渐变过渡*/
 
 }
+/*@media only screen and (max-width: 767px){*/
+    /*.box {*/
+        /*width: 35.5rem;*/
+        /*height: 17.5rem;*/
+    /*}*/
+    /*.box:before {*/
+        /*width: 35.5rem;*/
+        /*height: 17.5rem;*/
+    /*}*/
+/*}*/
+
+/*@media only screen and (max-width: 500px){*/
+    /*.box {*/
+        /*width: 30rem;*/
+        /*height: 25rem;*/
+    /*}*/
+    /*.box:before {*/
+        /*width: 30rem;*/
+        /*height: 25rem;*/
+        /*!*消除边缘渐变过渡*!*/
+    /*}*/
+/*}*/
 
 h1{
     color: #ffffff;
