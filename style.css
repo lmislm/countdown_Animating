@@ -55,6 +55,7 @@ body{
         margin: 0 .1rem 0 .2rem;
         color: #ffffff;
         padding: .2rem;
+        width: 20px;
     }
     h1{
         color: #ffffff;
@@ -63,10 +64,10 @@ body{
         letter-spacing: 10px;
     }
 }
-
+/* 
 @media only screen and (max-width: 500px) {
 
-}
+} */
 
 h1{
     color: #ffffff;
