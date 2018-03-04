@@ -1,28 +1,66 @@
 body{
-    background: #282e3a;
+    background: url(./img/demo.png) no-repeat center center fixed;
+    background-size: cover;
+
+    /*background: #282e3a;*/
     font-family: Tahoma;
+
 }
+.wrap {
+    /*width: 80%;*/
+    /*filter: blur(13px);*/
+}
+.box {
+    width: 80%;
+    margin: auto;
+    /*width: 850px;*/
+    /*overflow: hidden;*/
+    height: 35rem;
+    border-radius:5rem;
+    border:.1rem solid rgba(255,255,255,.3);
+    z-index: 1;
+    /*毛玻璃边缘模糊超出隐藏*/
+    overflow: no-display;
+}
+.box:before {
+    content: "";
+    position: absolute;
+    width: 79%;
+    height: 35rem;
+    border-radius:5rem;
+    background-color: rgba(255,255,255,0.8);
+    z-index: -1;
+    /*和大图拼接*/
+    background-attachment: fixed;
+
+    background: url(./img/demo.png);
+    -webkit-filter: blur(3px);
+    -moz-filter: blur(3px);
+    -ms-filter: blur(3px);
+    -o-filter: blur(3px);
+    filter: blur(3px);
+    /*消除边缘渐变过渡*/
+
+}
+
 h1{
     color: #ffffff;
     text-align: center;
-    font-size: 74px;
+    font-size: 4rem;
     letter-spacing: 10px;
-}
-#del-countdown{
-    width: 850px;
-    margin: 15% auto;
 }
 #clock span{
     float: left;
     text-align: center;
-    font-size: 84px;
-    margin: 0 2.5%;
+    font-size: 9vw;
+    margin: 0 1rem 0 2rem;
     color: #ffffff;
-    padding: 20px;
+    padding: 2rem;
     width: 20%;
-    -webkit-border-radius: 20px;
-    -moz-border-radius: 20px;
-    border-radius: 20px;
+    -webkit-border-radius: 1rem;
+    -moz-border-radius: 1rem;
+    border-radius: 2rem;
+    background: rgba(0,57,63,0.6);
 
     box-sizing: border-box;
 }
@@ -43,11 +81,10 @@ h1{
     float: left;
     width: 25%;
     text-align: center;
-    margin-top: 30px;
+    margin-top: 2rem;
     color: #dddddd;
     text-transform: uppercase;
-    font-size: 13px;
-    letter-spacing: 2px;
+    letter-spacing: .2rem;
     text-shadow: 1px 1px 1px rgba(10, 10, 10, 0.7);
 }
 
@@ -61,6 +98,9 @@ span.turn{
     animation: turn 0.7s ease forwards;
 }
 
+span {
+    font-size: 4rem;
+}
 @keyframes turn {
     0%{transform: rotateX(0deg)}
     100%{transform: rotateX(360deg)}
