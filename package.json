@@ -1,0 +1,19 @@
+{
+  "name": "countdown_animating",
+  "version": "1.0.0",
+  "description": "Js倒计时",
+  "main": "countdown.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lmislm/countdown_Animating.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/lmislm/countdown_Animating/issues"
+  },
+  "homepage": "https://github.com/lmislm/countdown_Animating#readme"
+}
